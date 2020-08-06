@@ -1,0 +1,58 @@
+.suggestions {
+    -webkit-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    box-shadow: 7px 7px 20px 3px rgba(0,0,0,0.35);
+    border-radius: .25em;
+    margin-top: .5em;
+    transition: all .3s;
+    max-height: 280px;
+    overflow-y: auto;
+}
+.suggestions:hover {
+    -webkit-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    box-shadow: 10px 10px 30px 7px rgba(0,0,0,0.45);
+}
+.search-result {
+    background-color: transparent;
+    padding: 1em;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.search-result.active-result {
+    background-color: rgba(255, 255, 255, .1);
+}
+.search-bar {
+    background-color: transparent;
+    border-color: #007BFF;
+}
+.search-bar:focus {
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* ::-webkit-scrollbar:hover {
+    width: 15px;
+} */
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+}

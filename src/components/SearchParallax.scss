@@ -1,0 +1,38 @@
+@media screen and (min-width: 992px) {
+  .parallax-effect-glare-scale {
+    margin: 2em;
+  }
+}
+.parallax-effect-glare-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  max-width: 400px;
+  color: white;
+  display: inline-block;
+  margin-top: 2em;
+
+  transform-style: preserve-3d;
+
+  .inner-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    transform: translateZ(60px);
+
+    -webkit-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    box-shadow: 7px 7px 20px 3px rgba(0,0,0,0.35);
+    
+  }
+
+  .hide-shadow {
+    box-shadow: none;
+  }
+}

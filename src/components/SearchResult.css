@@ -1,0 +1,40 @@
+.search-result-card {    
+    background-color: transparent;
+    -webkit-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    box-shadow: 7px 7px 20px 3px rgba(0,0,0,0.35);
+    transition: all .3s;
+    max-width: 400px;
+    float: none;
+    /* margin: 0 auto; */
+    /* margin-top: 1em; */
+    min-width: 300px;
+}
+
+/* #search-result-card:hover {
+    -webkit-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.53);
+    box-shadow: 20px 0px 30px 7px rgba(0,0,0,0.45);
+} */
+
+.search-result-card > .row {
+    background-color: transparent;
+}
+
+.search-result-card > .row > .col {
+    background-color: transparent;
+}
+
+/* .search-result-card:before {
+    content: "";
+    position: absolute;
+    width : 100%;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+
+    filter        : blur(2px);
+    -moz-filter   : blur(2px);
+    -webkit-filter: blur(2px);
+    -o-filter     : blur(2px);
+} */
